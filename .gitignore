@@ -1,0 +1,36 @@
+# Node
+node_modules/
+.next/
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+vector_db/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Build
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# MongoDB
+*.dump
