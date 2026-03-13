@@ -1,0 +1,143 @@
+# Latenza Vita — Water Quality Knowledge Base
+# Based on WHO, BIS IS-10500, CPCB, and Jal Jeevan Mission guidelines
+
+## WHO Drinking Water Standards
+- Safe pH range for drinking water: 6.5 to 8.5
+- Maximum turbidity: 1 NTU (WHO), 4 NTU (EPA)
+- Total Dissolved Solids (TDS): 500 mg/L preferred, 1000 mg/L maximum
+- Zero coliform bacteria per 100 mL sample
+- Water temperature: ideally 10-15 degrees Celsius
+- Residual chlorine: 0.2 to 0.5 mg/L at point of use
+- Arsenic: 0.01 mg/L maximum
+- Lead: 0.01 mg/L maximum
+- Nitrate: 50 mg/L maximum
+- Fluoride: 1.5 mg/L maximum
+
+## pH and Water Chemistry
+- pH below 6.5 = acidic water — corrodes pipes, leaches lead and copper
+- pH above 8.5 = alkaline water — bitter taste, scaling, reduced disinfection
+- pH below 5.0 or above 10.0 = immediate supply shutdown required
+- Causes of low pH: acid rain, industrial discharge, decaying organic matter, mining runoff
+- Causes of high pH: limestone bedrock, industrial alkaline waste, algae blooms
+- Treatment for low pH: lime addition, soda ash
+- Treatment for high pH: CO2 injection, dilution with treated water
+
+## Turbidity and Water Clarity
+- Turbidity is measured in NTU (Nephelometric Turbidity Units)
+- Below 1 NTU: WHO standard for drinking water
+- Below 4 NTU: EPA maximum for filtered water
+- 4-10 NTU: elevated — requires increased coagulation
+- Above 10 NTU: high — potential pathogen harboring
+- Above 100 NTU: extreme — likely flooding or major pollution event
+- Causes: heavy rainfall, surface runoff, algae bloom, construction, industrial discharge
+- High turbidity blocks UV disinfection and reduces chlorine effectiveness
+- Treatment: coagulation, flocculation, sedimentation, sand filtration
+
+## Bacterial Contamination
+- Zero total coliform bacteria per 100 mL is the WHO absolute standard
+- E. coli indicates direct fecal contamination — immediate emergency response
+- Causes: sewage overflow, flooding, broken distribution pipes, animal waste runoff
+- High bacteria risk conditions: post-flooding, monsoon season, pipe ruptures
+- Health risks: cholera, typhoid fever, dysentery, gastroenteritis, hepatitis A
+- Treatment: chlorination (0.5 mg/L minimum), UV disinfection, boiling (1 minute)
+- Post-detection: boil water advisory, network flushing, lab confirmation within 2 hours
+
+## Chemical Contamination
+- Common contaminants: arsenic, lead, nitrates, pesticides, fluoride, chromium, mercury
+- Industrial sources: heavy metals, solvents, petroleum, dyes, acids, alkalis
+- Agricultural sources: nitrates, phosphates, pesticides, herbicides, insecticides
+- Arsenic causes: skin lesions, keratosis, bladder/lung cancer with long-term exposure
+- Lead causes: neurological damage in children, kidney disease, cardiovascular effects
+- Nitrate causes: blue baby syndrome (methemoglobinemia) in infants under 6 months
+- Chemical contamination: do NOT boil — boiling concentrates most chemical contaminants
+- Treatment: reverse osmosis, activated carbon filtration, ion exchange, coagulation
+
+## Total Dissolved Solids (TDS)
+- TDS measures all dissolved minerals, salts, and metals in water
+- Below 300 mg/L: excellent quality
+- 300-600 mg/L: good quality
+- 600-900 mg/L: fair — requires treatment for sensitive populations
+- 900-1200 mg/L: poor — not recommended for regular consumption
+- Above 1200 mg/L: unacceptable — do not use for drinking or cooking
+- High TDS sources: industrial effluents, agricultural runoff, natural rock minerals
+- Treatment: reverse osmosis, distillation, electrodialysis, nanofiltration
+
+## Waterborne Diseases and Health Impacts
+- Cholera: Vibrio cholerae — severe diarrhea, dehydration, spreads rapidly in communities
+- Typhoid fever: Salmonella typhi — fever, abdominal pain, systemic infection, 10-14 day incubation
+- Dysentery: Shigella bacteria or Entamoeba histolytica — bloody diarrhea, intestinal ulcers
+- Hepatitis A: viral infection — jaundice, liver damage, 15-50 day incubation, spreads fecal-oral
+- Cryptosporidiosis: Cryptosporidium parasite — severe diarrhea, resistant to chlorination
+- Giardiasis: Giardia parasite — intestinal infection, bloating, diarrhea
+- Arsenic poisoning: chronic — skin lesions, cancers, cardiovascular disease
+- Lead poisoning: irreversible neurological damage in children under 6 years
+- Fluorosis: dental mottling, skeletal damage from fluoride above 1.5 mg/L
+
+## Emergency Response Procedures
+- DANGER level: issue boil-water advisory within 15 minutes of detection
+- Stop distribution from affected zone immediately for bacterial or chemical contamination
+- Deploy mobile water tankers within 2 hours for emergency community supply
+- Notify District Collector and Chief Medical Officer within 30 minutes
+- Dispatch rapid-response field team for on-site sampling and verification
+- Collect samples for laboratory analysis within 1 hour of alert
+- Inspect upstream sources: industrial discharge points, sewage outfalls, agricultural areas
+- Flush distribution network with high-dose chlorinated water after bacterial alert
+- Test water every 2 hours during emergency until 3 consecutive safe readings
+- Document all incidents for regulatory compliance — maintain 5-year log
+- Coordinate with State Disaster Management Authority for large-scale flooding events
+- Issue public communication through SMS alerts, local radio, and social media
+
+## Municipal Water Treatment Process
+- Step 1 Coagulation: add alum (aluminum sulfate) to clump suspended particles
+- Step 2 Flocculation: gentle slow mixing to form larger clumps called floc
+- Step 3 Sedimentation: allow floc to settle at bottom of settling tanks
+- Step 4 Filtration: pass through rapid sand filters and slow sand filters
+- Step 5 Disinfection: chlorine dosing (primary), UV treatment (secondary)
+- Step 6 pH adjustment: add lime to raise pH or CO2 to lower pH
+- Step 7 Fluoridation: add fluoride to 0.7 mg/L for dental health
+- Step 8 Distribution: maintain 0.2 mg/L residual chlorine throughout network
+
+## Rainfall and Water Quality
+- Heavy rainfall above 50mm causes significant turbidity increase within 2-4 hours
+- Flooding events contaminate water with sewage, chemicals, and industrial waste
+- Post-rain quality typically recovers within 24-72 hours with treatment
+- Agricultural areas risk pesticide and nitrate contamination after rainfall
+- Urban areas risk heavy metal and hydrocarbon contamination after rainfall
+- Monitor for delayed contamination 6-12 hours after heavy rainfall events
+- Pre-monsoon testing and system preparation is essential for municipal systems
+- Extreme rainfall above 100mm in 24 hours requires emergency protocol activation
+
+## Temperature Effects on Water Quality
+- Water temperature above 30 degrees Celsius accelerates bacterial growth by 50%
+- High temperature reduces dissolved oxygen, stressing aquatic systems
+- Temperature above 35 degrees indicates infrastructure heating problems
+- Cold water (below 5 degrees) can cause pipe contraction and bursts
+- Ideal water temperature for distribution: 10-20 degrees Celsius
+- Monitor temperature with pH as combined indicators of treatment effectiveness
+
+## Division-Specific Monitoring Standards
+- Industrial zones: heavy metals, COD, BOD, petroleum hydrocarbons
+- Agricultural zones: nitrates, phosphates, organochlorine pesticides, herbicides
+- Residential zones: bacterial contamination, TDS, pH, residual chlorine
+- Hospital/school areas: zero tolerance for any contamination parameter
+- Sensitive zones must be tested every 4 hours minimum
+- All zone alerts must reach Division Health Officer within 15 minutes
+
+## Indian Regulatory Standards
+- Bureau of Indian Standards IS 10500:2012 for drinking water quality
+- Central Pollution Control Board (CPCB) Schedule VI for surface water
+- National Water Quality Sub-Mission monitoring protocols
+- Jal Jeevan Mission FHTC testing guidelines (Functional Household Tap Connection)
+- State Pollution Control Board quarterly inspection requirements
+- National Green Tribunal directions on groundwater protection
+- Ministry of Jal Shakti WQMS (Water Quality Monitoring System) reporting
+
+## Predictive Risk Assessment
+- Risk doubles when rainfall exceeds 40mm in 24 hours combined with turbidity above 5 NTU
+- Temperature above 30 degrees combined with pH below 7 indicates bacterial growth risk
+- TDS above 400 mg/L combined with pH below 6.5 indicates industrial leaching
+- Turbidity spike of more than 5 NTU per hour indicates emergency contamination event
+- Three consecutive moderate-risk readings from same sensor indicates infrastructure failure
+- Upstream contamination reaches downstream stations within 2-4 hours typically
+- Monsoon season risk: bacterial contamination probability increases by 3 times
+- Post-flood: mandatory 48-hour testing protocol before restoring supply
