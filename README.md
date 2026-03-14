@@ -1,60 +1,34 @@
-🌊 Latenza Vita
-Smart AI-Powered Water Quality Monitoring & Alert System
+# 🌊 Latenza Vita
 
-Supporting UN Sustainable Development Goals:
-SDG 3 · SDG 6 · SDG 9 · SDG 11
+### Smart AI-Powered Water Quality Monitoring & Alert System
 
-Category: GenAI + Smart Cities + IoT
+**SDG 6 — Clean Water and Sanitation | GenAI Hackathon Project**
 
-📌 Project Overview
+Latenza Vita is an **AI-driven municipal water monitoring platform** that analyzes real-time water quality data from IoT sensors and provides **intelligent alerts, dashboards, and AI insights** to help authorities respond quickly to contamination risks.
 
-Latenza Vita is an AI-powered municipal water monitoring platform designed to detect water quality risks in real time.
+The platform combines **IoT simulation, cloud infrastructure, and generative AI** to enable proactive water quality management.
 
-The system integrates IoT sensor data, cloud infrastructure, and generative AI to help municipalities monitor water infrastructure and respond quickly to contamination events.
+---
 
-The platform provides:
+# 🚀 Key Features
 
-Real-time monitoring dashboards
+* 📡 **Real-Time Water Monitoring** — Continuous sensor data ingestion from distributed sources
+* ⚠️ **AI-Powered Alerts** — Detect abnormal readings and notify relevant municipal divisions
+* 📊 **Interactive Dashboard** — Visualize water quality metrics and trends
+* 🤖 **AI Assistant (RAG)** — Ask questions about water data and receive contextual AI insights
+* 🧠 **Vector Knowledge Search** — Uses embeddings and FAISS for fast semantic retrieval
+* 🌍 **SDG-Aligned Solution** — Designed to support Sustainable Development Goal 6
 
-AI-powered alerts for unsafe water conditions
+---
 
-Intelligent data analysis using Retrieval-Augmented Generation (RAG)
+# 🏗 System Architecture
 
-Scalable cloud-based architecture
-
-This enables proactive water management and safer urban infrastructure.
-
-🚀 Key Features
-📡 Real-Time Water Monitoring
-
-Continuous ingestion of water quality data from distributed IoT sensors.
-
-⚠️ AI-Powered Alert System
-
-Automatically detects abnormal water conditions and generates alerts for municipal authorities.
-
-📊 Interactive Monitoring Dashboard
-
-Visualizes real-time water quality metrics, sensor data, and infrastructure health.
-
-🤖 AI Assistant (RAG Powered)
-
-Users can ask questions about water quality data and receive contextual insights.
-
-🧠 Semantic Knowledge Retrieval
-
-Uses vector embeddings and FAISS for fast and accurate knowledge retrieval.
-
-🌍 Sustainability Focus
-
-Designed to address multiple United Nations Sustainable Development Goals (SDGs).
-
-🏗 System Architecture
+```
 IoT Simulator (Node.js)
         │
-        │  POST /api/sensor-data (every 30 seconds)
+        │  POST /api/sensor-data (every 30s)
         ▼
-Next.js Backend API Routes
+Next.js API Routes (Vercel)
         │
         │  Analyze → Store → Alert
         ▼
@@ -62,169 +36,156 @@ MongoDB Atlas (Cloud Database)
         │
         ▼
 Python AI Microservice
-LangChain + FAISS + HuggingFace
+(Render Deployment)
+
+LangChain
+FAISS Vector Database
+HuggingFace Embeddings
+FLAN-T5 Language Model
         │
         ▼
 React Dashboard
 Dashboard | Monitor | Alerts | AI Assistant
-🧰 Technology Stack
-Layer	Technology
-Frontend	Next.js 14 · React · Tailwind CSS
-Backend	Next.js API Routes
-Database	MongoDB Atlas
-AI Framework	LangChain
-Vector Search	FAISS
-Embeddings	HuggingFace
-Language Model	FLAN-T5
-Hosting	Vercel · Render
-IoT Simulator	Node.js · Axios
-⚡ Getting Started
-1️⃣ Clone Repository
+```
+
+---
+
+# 🧰 Tech Stack
+
+| Layer         | Technology                                |
+| ------------- | ----------------------------------------- |
+| **Frontend**  | Next.js 14 (App Router) + Tailwind CSS    |
+| **Backend**   | Next.js API Routes                        |
+| **Database**  | MongoDB Atlas                             |
+| **AI Stack**  | LangChain · FAISS · HuggingFace · FLAN-T5 |
+| **Hosting**   | Vercel (Web App) · Render (AI Service)    |
+| **Simulator** | Node.js + Axios                           |
+
+---
+
+# ⚡ Quick Start
+
+## 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/YOUR_USERNAME/latenza-vita.git
 cd latenza-vita
-🤖 Run AI Microservice
+```
+
+---
+
+# 🤖 Run the AI Service
+
+```bash
 cd ai-service
 
 python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
+source venv/bin/activate        # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
 python app.py
+```
 
-AI service will start at:
+AI service runs at:
 
+```
 http://localhost:5001
-🌐 Run Web Application
+```
+
+---
+
+# 🌐 Run the Web Application
+
+```bash
 cd webapp
 
 cp .env.local.example .env.local
-
-Edit .env.local and add your MongoDB Atlas connection string.
-
-Then run:
+# Add your MongoDB connection string
 
 npm install
 npm run dev
+```
 
-Web application runs at:
+Web app runs at:
 
+```
 http://localhost:3000
-📡 Run IoT Simulator
+```
+
+---
+
+# 📡 Run the IoT Simulator
+
+```bash
 cd iot-simulator
 
 npm install
 node simulator.js
+```
 
-The simulator generates synthetic water sensor data every 30 seconds.
+This simulator sends **synthetic water sensor readings every 30 seconds** to the backend API.
 
-🖥 Application Pages
-Page	Route	Description
-Dashboard	/	System overview and key metrics
-Monitor	/monitor	Complete table of sensor readings
-Alerts	/alerts	AI-generated risk alerts
-AI Assistant	/assistant	RAG-powered chat assistant
-☁️ Deployment
-Component	Platform
-Web Application	Vercel
-AI Service	Render
-Database	MongoDB Atlas
-Deployment Workflow
+---
 
-Push repository to GitHub
+# 🖥 Application Pages
 
-Connect project to Vercel
+| Page             | Route        | Description                                 |
+| ---------------- | ------------ | ------------------------------------------- |
+| **Dashboard**    | `/`          | Overview of water metrics and system status |
+| **Monitor**      | `/monitor`   | Complete table of sensor readings           |
+| **Alerts**       | `/alerts`    | Risk-level alerts with AI analysis          |
+| **AI Assistant** | `/assistant` | Chat interface powered by RAG               |
 
-Set root directory = webapp
+---
 
-Deploy AI microservice to Render
+# ☁️ Deployment
 
-Configure environment variables
+| Service         | Platform      |
+| --------------- | ------------- |
+| Web Application | Vercel        |
+| AI Microservice | Render        |
+| Database        | MongoDB Atlas |
 
-Connect MongoDB Atlas database
+Deployment steps:
 
-🌍 Sustainable Development Goals Impact
+1. Connect GitHub repo to **Vercel**
+2. Set root directory to `webapp`
+3. Deploy AI service on **Render**
+4. Configure environment variables
+5. Connect **MongoDB Atlas cluster**
 
-Latenza Vita supports several United Nations Sustainable Development Goals (SDGs) by enabling AI-driven smart water infrastructure.
+---
 
-💧 SDG 6 — Clean Water and Sanitation
+# 🌍 SDG 6 Impact
 
-Objective: Ensure safe and sustainable water access.
+Latenza Vita supports **United Nations Sustainable Development Goal 6 — Clean Water and Sanitation**.
 
-How Latenza Vita Contributes
+The platform enables municipalities to:
 
-Continuous water quality monitoring
+* Detect contamination early
+* Monitor water infrastructure continuously
+* Prevent large-scale public health risks
+* Enable data-driven water governance
 
-Early detection of contamination events
+By combining **AI, IoT, and real-time analytics**, Latenza Vita contributes toward **safe and sustainable water management systems**.
 
-Automated alerts for municipal authorities
+---
 
-Improved infrastructure visibility
+# 📌 Future Enhancements
 
-Impact:
-Ensures safer and more reliable drinking water systems.
+* Real IoT sensor integration
+* Predictive contamination forecasting
+* SMS / WhatsApp emergency alerts
+* GIS-based water quality mapping
+* Mobile application for field engineers
 
-🏥 SDG 3 — Good Health and Well-Being
+---
 
-Objective: Protect public health.
+# 👨‍💻 Contributors
 
-Contribution
+**Team Latenza Vita**
 
-Early detection of unsafe water conditions
+Built for the **GenAI Hackathon** to demonstrate how AI can transform urban water management.
 
-Prevention of waterborne disease outbreaks
-
-AI-assisted risk analysis for authorities
-
-Impact:
-Reduces risks from cholera, typhoid, and other waterborne diseases.
-
-🏗 SDG 9 — Industry, Innovation and Infrastructure
-
-Objective: Build resilient infrastructure and foster innovation.
-
-Contribution
-
-Integrates IoT sensors with AI analytics
-
-Uses vector search and RAG pipelines
-
-Demonstrates modern AI-driven infrastructure monitoring
-
-Impact:
-Encourages development of smart infrastructure systems.
-
-🏙 SDG 11 — Sustainable Cities and Communities
-
-Objective: Build sustainable and resilient cities.
-
-Contribution
-
-Smart monitoring of municipal water networks
-
-Real-time dashboards for city administrators
-
-Data-driven decision support systems
-
-Impact:
-Supports development of smart city water management systems.
-
-🌱 Future Enhancements
-
-Integration with real IoT sensors
-
-Predictive water contamination forecasting
-
-SMS / WhatsApp alert system
-
-GIS-based water infrastructure mapping
-
-Mobile app for field engineers
-
-Smart city platform integration
-
-👨‍💻 Contributors
-
-Team Latenza Vita
-
-Developed for the GenAI Hackathon to demonstrate how Artificial Intelligence can transform urban water monitoring and infrastructure management.
+---
