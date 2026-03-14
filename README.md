@@ -1,212 +1,230 @@
 🌊 Latenza Vita
 Smart AI-Powered Water Quality Monitoring & Alert System
 
-SDG 3 · SDG 6 · SDG 9 · SDG 11 | GenAI Hackathon Project
+Supporting UN Sustainable Development Goals:
+SDG 3 · SDG 6 · SDG 9 · SDG 11
 
-Latenza Vita is an AI-driven municipal water monitoring platform that analyzes real-time water quality data from IoT sensors and provides intelligent alerts, dashboards, and AI insights to help authorities respond quickly to contamination risks.
+Category: GenAI + Smart Cities + IoT
 
-The platform integrates IoT simulation, cloud infrastructure, and generative AI to enable proactive water quality management for modern cities.
+📌 Project Overview
+
+Latenza Vita is an AI-powered municipal water monitoring platform designed to detect water quality risks in real time.
+
+The system integrates IoT sensor data, cloud infrastructure, and generative AI to help municipalities monitor water infrastructure and respond quickly to contamination events.
+
+The platform provides:
+
+Real-time monitoring dashboards
+
+AI-powered alerts for unsafe water conditions
+
+Intelligent data analysis using Retrieval-Augmented Generation (RAG)
+
+Scalable cloud-based architecture
+
+This enables proactive water management and safer urban infrastructure.
 
 🚀 Key Features
-
 📡 Real-Time Water Monitoring
-Continuous ingestion of sensor data from distributed water sources.
 
-⚠️ AI-Powered Alerts
-Automatically detects abnormal water quality readings and notifies responsible authorities.
+Continuous ingestion of water quality data from distributed IoT sensors.
 
-📊 Interactive Dashboard
-Visualize water metrics, trends, and infrastructure status in real time.
+⚠️ AI-Powered Alert System
 
-🤖 AI Assistant (RAG)
-Ask natural language questions about water data and receive AI-generated insights.
+Automatically detects abnormal water conditions and generates alerts for municipal authorities.
 
-🧠 Vector Knowledge Search
-Uses embeddings and FAISS vector indexing for fast semantic retrieval.
+📊 Interactive Monitoring Dashboard
 
-🌍 Sustainability Focused
-Designed to support multiple United Nations Sustainable Development Goals.
+Visualizes real-time water quality metrics, sensor data, and infrastructure health.
+
+🤖 AI Assistant (RAG Powered)
+
+Users can ask questions about water quality data and receive contextual insights.
+
+🧠 Semantic Knowledge Retrieval
+
+Uses vector embeddings and FAISS for fast and accurate knowledge retrieval.
+
+🌍 Sustainability Focus
+
+Designed to address multiple United Nations Sustainable Development Goals (SDGs).
 
 🏗 System Architecture
 IoT Simulator (Node.js)
         │
-        │  POST /api/sensor-data every 30s
+        │  POST /api/sensor-data (every 30 seconds)
         ▼
-Next.js API Routes (Vercel)
+Next.js Backend API Routes
         │
         │  Analyze → Store → Alert
         ▼
 MongoDB Atlas (Cloud Database)
         │
         ▼
-Python AI Microservice (Render)
-
-LangChain
-FAISS Vector Database
-HuggingFace Embeddings
-FLAN-T5 Language Model
+Python AI Microservice
+LangChain + FAISS + HuggingFace
         │
         ▼
 React Dashboard
-
 Dashboard | Monitor | Alerts | AI Assistant
-🧰 Tech Stack
+🧰 Technology Stack
 Layer	Technology
-Frontend	Next.js 14 (App Router) + Tailwind CSS
+Frontend	Next.js 14 · React · Tailwind CSS
 Backend	Next.js API Routes
 Database	MongoDB Atlas
-AI Stack	LangChain · FAISS · HuggingFace · FLAN-T5
-Hosting	Vercel (Web App) · Render (AI Service)
-Simulator	Node.js + Axios
-⚡ Quick Start
-1️⃣ Clone the Repository
+AI Framework	LangChain
+Vector Search	FAISS
+Embeddings	HuggingFace
+Language Model	FLAN-T5
+Hosting	Vercel · Render
+IoT Simulator	Node.js · Axios
+⚡ Getting Started
+1️⃣ Clone Repository
 git clone https://github.com/YOUR_USERNAME/latenza-vita.git
 cd latenza-vita
-🤖 Run the AI Service
+🤖 Run AI Microservice
 cd ai-service
 
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate      # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
 python app.py
 
-AI service will run at:
+AI service will start at:
 
 http://localhost:5001
-🌐 Run the Web Application
+🌐 Run Web Application
 cd webapp
 
 cp .env.local.example .env.local
 
-Edit .env.local and add your MongoDB connection string.
+Edit .env.local and add your MongoDB Atlas connection string.
 
 Then run:
 
 npm install
 npm run dev
 
-Web app will run at:
+Web application runs at:
 
 http://localhost:3000
-📡 Run the IoT Simulator
+📡 Run IoT Simulator
 cd iot-simulator
 
 npm install
 node simulator.js
 
-The simulator sends synthetic water sensor data every 30 seconds to the backend API.
+The simulator generates synthetic water sensor data every 30 seconds.
 
 🖥 Application Pages
 Page	Route	Description
-Dashboard	/	Overview of water metrics and system status
+Dashboard	/	System overview and key metrics
 Monitor	/monitor	Complete table of sensor readings
-Alerts	/alerts	Risk-level alerts with AI analysis
-AI Assistant	/assistant	RAG-powered AI chat interface
+Alerts	/alerts	AI-generated risk alerts
+AI Assistant	/assistant	RAG-powered chat assistant
 ☁️ Deployment
-Service	Platform
+Component	Platform
 Web Application	Vercel
-AI Microservice	Render
+AI Service	Render
 Database	MongoDB Atlas
-Deployment Steps
+Deployment Workflow
 
-Push project to GitHub
+Push repository to GitHub
 
-Connect repository to Vercel
+Connect project to Vercel
 
-Set root directory to:
+Set root directory = webapp
 
-webapp
-
-Deploy AI service to Render
+Deploy AI microservice to Render
 
 Configure environment variables
 
-Connect MongoDB Atlas cluster
+Connect MongoDB Atlas database
 
 🌍 Sustainable Development Goals Impact
 
-Latenza Vita contributes to multiple United Nations Sustainable Development Goals (SDGs) by using AI, IoT, and data analytics to improve urban water infrastructure and public safety.
+Latenza Vita supports several United Nations Sustainable Development Goals (SDGs) by enabling AI-driven smart water infrastructure.
 
 💧 SDG 6 — Clean Water and Sanitation
 
-Goal: Ensure availability and sustainable management of water for all.
+Objective: Ensure safe and sustainable water access.
 
-Contribution
+How Latenza Vita Contributes
 
-Continuous monitoring of water quality
+Continuous water quality monitoring
 
-Early detection of contamination risks
+Early detection of contamination events
 
-Automated alert system for municipal authorities
+Automated alerts for municipal authorities
 
-Data-driven water infrastructure management
+Improved infrastructure visibility
 
 Impact:
-Improves access to safe and reliable drinking water.
+Ensures safer and more reliable drinking water systems.
 
 🏥 SDG 3 — Good Health and Well-Being
 
-Goal: Ensure healthy lives and promote well-being.
+Objective: Protect public health.
 
 Contribution
 
-Prevents waterborne disease outbreaks
+Early detection of unsafe water conditions
 
-Detects unsafe water conditions early
+Prevention of waterborne disease outbreaks
 
-Provides AI-generated recommendations for response
+AI-assisted risk analysis for authorities
 
 Impact:
-Reduces risks from cholera, typhoid, and other waterborne illnesses.
+Reduces risks from cholera, typhoid, and other waterborne diseases.
 
 🏗 SDG 9 — Industry, Innovation and Infrastructure
 
-Goal: Build resilient infrastructure and foster innovation.
+Objective: Build resilient infrastructure and foster innovation.
 
 Contribution
 
-Combines IoT, AI, and cloud computing
+Integrates IoT sensors with AI analytics
 
-Uses vector databases and RAG pipelines
+Uses vector search and RAG pipelines
 
-Demonstrates next-generation AI-powered municipal infrastructure
+Demonstrates modern AI-driven infrastructure monitoring
 
 Impact:
-Promotes smart infrastructure for modern cities.
+Encourages development of smart infrastructure systems.
 
 🏙 SDG 11 — Sustainable Cities and Communities
 
-Goal: Make cities safe, resilient, and sustainable.
+Objective: Build sustainable and resilient cities.
 
 Contribution
 
-Real-time monitoring for city water systems
+Smart monitoring of municipal water networks
 
-Smart dashboards for municipal authorities
+Real-time dashboards for city administrators
 
-Enables proactive urban resource management
+Data-driven decision support systems
 
 Impact:
-Supports development of smart and resilient cities.
+Supports development of smart city water management systems.
 
 🌱 Future Enhancements
 
-Real IoT sensor integration
+Integration with real IoT sensors
 
-Predictive contamination forecasting
+Predictive water contamination forecasting
 
-SMS / WhatsApp emergency alerts
+SMS / WhatsApp alert system
 
-GIS-based water quality mapping
+GIS-based water infrastructure mapping
 
-Mobile application for field engineers
+Mobile app for field engineers
 
-Integration with government smart city platforms
+Smart city platform integration
 
 👨‍💻 Contributors
 
 Team Latenza Vita
 
-Developed for the GenAI Hackathon to demonstrate how Artificial Intelligence can transform urban water management systems.
+Developed for the GenAI Hackathon to demonstrate how Artificial Intelligence can transform urban water monitoring and infrastructure management.
