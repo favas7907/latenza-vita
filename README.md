@@ -2,7 +2,7 @@
 
 ### Smart AI-Powered Water Quality Monitoring & Alert System
 
-**SDG 6 — Clean Water and Sanitation | GenAI Hackathon Project**
+**SDG 3,6,9,11— Clean Water and Sanitation | GenAI Hackathon Project**
 
 Latenza Vita is an **AI-driven municipal water monitoring platform** that analyzes real-time water quality data from IoT sensors and provides **intelligent alerts, dashboards, and AI insights** to help authorities respond quickly to contamination risks.
 
@@ -157,6 +157,20 @@ Deployment steps:
 
 ---
 
+# 🌍 SDG 3 Impact
+
+Latenza Vita supports United Nations Sustainable Development Goal 3 — Good Health and Well-Being**.
+
+The platform helps communities by:
+
+* Detecting unsafe water conditions early
+* Reducing the risk of waterborne diseases
+* Enabling faster response to contamination events
+* Protecting public health through continuous monitoring
+  
+By combining AI-powered alerts and real-time water analysis, Latenza Vita helps create healthier and safer communities.
+
+
 # 🌍 SDG 6 Impact
 
 Latenza Vita supports **United Nations Sustainable Development Goal 6 — Clean Water and Sanitation**.
@@ -169,6 +183,27 @@ The platform enables municipalities to:
 * Enable data-driven water governance
 
 By combining **AI, IoT, and real-time analytics**, Latenza Vita contributes toward **safe and sustainable water management systems**.
+
+🌍 SDG 9 Impact
+
+* Latenza Vita supports United Nations Sustainable Development Goal 9 — Industry, Innovation and Infrastructure.
+* The platform strengthens infrastructure by:
+* Introducing AI-driven monitoring for water systems
+* Integrating IoT sensors with cloud-based analytics
+* Enabling intelligent decision-making for infrastructure management
+* Promoting innovation in public utility systems
+ By integrating AI, IoT, and smart infrastructure technologies, Latenza Vita demonstrates how modern digital solutions can improve critical infrastructure.
+
+# 🌍 SDG 11 Impact
+
+Latenza Vita supports United Nations Sustainable Development Goal 11 — Sustainable Cities and Communities.
+
+* The platform helps cities by:
+* Monitoring urban water distribution systems in real time
+* Detecting infrastructure issues early
+* Supporting data-driven city management
+* Improving the reliability of municipal water services
+Through real-time monitoring and intelligent alerts, Latenza Vita contributes to building safer and more sustainable urban environments.
 
 ---
 
