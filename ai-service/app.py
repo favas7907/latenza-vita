@@ -33,7 +33,7 @@ def health():
     return jsonify({
         "status":  "healthy",
         "service": "Latenza Vita AI",
-        "rag":     rag.qa_chain is not None,
+       "rag_ready": rag.index is not None,
     })
 
 
