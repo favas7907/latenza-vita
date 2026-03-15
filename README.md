@@ -14,7 +14,7 @@ The platform combines **IoT simulation, cloud infrastructure, and generative AI*
 
 ### A short demonstration of Latenza Vita showcasing the real-time water monitoring dashboard, AI-powered alerts, and the AI assistant.
 
-▶ Demo Video: https://drive.google.com/file/d/1FGLMAFiR3mMRjOoBjx1ASecfrBSQDWqJ/view?usp=sharing
+▶ Demo Video: https://drive.google.com/file/d/1guYpXaDTTvuhDjA73bc87zVUaJVRjBju/view?usp=sharing
 
 #### Video will demonstrate:
 
