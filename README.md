@@ -239,7 +239,10 @@ Through real-time monitoring and intelligent alerts, Latenza Vita contributes to
 
 # 👨‍💻 Contributors
 
-**Team Latenza Vita**
+**Team Latenza**
+**Favas M**
+**Fidha Thesni K K**
+**Sana Fathima K K**
 
 Built for the **GenAI Hackathon** to demonstrate how AI can transform urban water management.
 
