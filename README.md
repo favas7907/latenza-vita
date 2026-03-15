@@ -184,7 +184,7 @@ The platform enables municipalities to:
 
 By combining **AI, IoT, and real-time analytics**, Latenza Vita contributes toward **safe and sustainable water management systems**.
 
-🌍 SDG 9 Impact
+# 🌍 SDG 9 Impact
 
 * Latenza Vita supports United Nations Sustainable Development Goal 9 — Industry, Innovation and Infrastructure.
 * The platform strengthens infrastructure by:
