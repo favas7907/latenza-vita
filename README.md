@@ -12,21 +12,21 @@ The platform combines **IoT simulation, cloud infrastructure, and generative AI*
 
 # 🎥 Demo Video
 
-#### A short demonstration of Latenza Vita showcasing the real-time water monitoring dashboard, AI-powered alerts, and the AI assistant.
+### A short demonstration of Latenza Vita showcasing the real-time water monitoring dashboard, AI-powered alerts, and the AI assistant.
 
 ▶ Demo Video: https://drive.google.com/file/d/1FGLMAFiR3mMRjOoBjx1ASecfrBSQDWqJ/view?usp=sharing
 
 #### Video will demonstrate:
 
-** Real-time water quality monitoring
+* Real-time water quality monitoring
 
-** Sensor data ingestion through the IoT simulator
+* Sensor data ingestion through the IoT simulator
 
-** AI-generated alerts for abnormal readings
+* AI-generated alerts for abnormal readings
 
-** Interactive dashboard and monitoring interface
+* Interactive dashboard and monitoring interface
 
-** AI assistant answering queries about water data
+* AI assistant answering queries about water data
 
 ---
 
