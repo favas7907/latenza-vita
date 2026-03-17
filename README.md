@@ -239,7 +239,7 @@ Through real-time monitoring and intelligent alerts, Latenza Vita contributes to
 
 # 👨‍💻 Contributors
 
-**Team Latenza**
+**Team Latenza : **
 **Favas M**
 **Fidha Thesni K K**
 **Sana Fathima K K**
